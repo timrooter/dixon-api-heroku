@@ -9,6 +9,8 @@ spring:
     username: bhoyqvin
     password: 341M2nN6zwho7QJZUU4ZDcqUuYvSM5Cr
   security:
+    mixed-content:
+      mode: NEVER
     oauth2:
       client:
         registration:
