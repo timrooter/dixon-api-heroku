@@ -7,7 +7,7 @@ spring:
   datasource:
     url: jdbc:postgresql://rain.db.elephantsql.com:5432/bhoyqvin
     username: bhoyqvin
-    password: NXbVaf2lZQfnih0yLyDOgT1IXSPd2YkG
+    password: 341M2nN6zwho7QJZUU4ZDcqUuYvSM5Cr
   security:
     oauth2:
       client:
