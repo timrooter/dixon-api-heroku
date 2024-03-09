@@ -7,8 +7,10 @@ spring:
   datasource:
     url: jdbc:postgresql://rain.db.elephantsql.com:5432/bhoyqvin
     username: bhoyqvin
-    password: NXbVaf2lZQfnih0yLyDOgT1IXSPd2YkG
+    password: 341M2nN6zwho7QJZUU4ZDcqUuYvSM5Cr
   security:
+    mixed-content:
+      mode: NEVER
     oauth2:
       client:
         registration:
@@ -31,7 +33,7 @@ app:
   oauth2:
     redirectUri: http://localhost:3000/oauth2/redirect
   cors:
-    allowed-origins: http://localhost:3000
+    allowed-origins: http://172.16.9.250:3000
 
 logging:
   level:

@@ -21,7 +21,6 @@ import static com.project.estateapi.config.SwaggerConfig.BEARER_KEY_SECURITY_SCH
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/estates")
-@CrossOrigin(origins = "http://172.16.9.250:3000")
 public class EstateController {
 
     private final EstateService estateService;

@@ -18,7 +18,6 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://172.16.9.250:3000")
 public class UserController {
 
     private final UserService userService;
