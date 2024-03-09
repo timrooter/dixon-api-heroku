@@ -33,7 +33,7 @@ app:
   oauth2:
     redirectUri: http://localhost:3000/oauth2/redirect
   cors:
-    allowed-origins: http://172.16.9.250:3000
+    allowed-origins: https://dixon-tawny.vercel.app
 
 logging:
   level:
